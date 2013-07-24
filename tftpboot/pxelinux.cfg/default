@@ -1,0 +1,14 @@
+default localboot
+prompt 200
+timeout 300
+display boot.msg
+
+label localboot
+  LOCALBOOT 0
+
+label sl5diskless
+kernel diskless/sl5/i386/vmlinuz
+
+######set "nfsroot=YourServerIPAddress:/master/diskless/sl5/i386/cd" on the next line######
+######Ex) "nfsroot=192.168.56.101:master/diskless/sl5/i386/cd"
+append nonet nfsroot=YourServerIPAddress:/master/diskless/sl5/i386/cd initrd=diskless/sl5/i386/initrd.gz init=linuxrc ramdisk_size=50000 root=/dev/ram0 rw

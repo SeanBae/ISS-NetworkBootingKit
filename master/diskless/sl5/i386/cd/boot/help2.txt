@@ -1,0 +1,20 @@
+
+boot/splash.lss
+0f 
+ You can affect the system by passing special parameters to the kernel.
+ Type "linux" followed by one or more parameters as shown below.
+
+  afs ............... to start AFS during the boot
+  cell=your.cell .... to set an AFS cell
+  cups=server ....... to set a CUPS server
+  ssh ............... to start SSH server during the boot
+  ntpd .............. to start ntpd during the boot
+
+  -> The network is started over DHCP per default
+  nonet ............. do not start network during the boot
+  ip= ............... define static IP
+  gw= ............... define static gateway
+  netmask= .......... define static netmask
+
+ More options: <F1> general  <F2> network  <F3> graphic/sound  <F4> disk
+

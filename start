@@ -1,0 +1,2 @@
+/etc/initd.d/portmap start
+/etc/initd.d/nfs start

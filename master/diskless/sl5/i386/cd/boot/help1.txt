@@ -1,0 +1,20 @@
+
+boot/splash.lss
+0f 
+ You can affect the system by passing special parameters to the kernel.
+ Type "linux" followed by one or more parameters as shown below.
+
+  nolocal ........... to start Linux without a local user
+  noroot ............ to start Linux without a root user
+  pw= ............... to set the password
+  nopasswd .......... empty password for root and local user
+  acpi=off .......... to disable ACPI power management
+  apm=off ........... to disable Advanced power management
+  debug ............. to start debug shell several times during boot
+  toram ............. copies the whole LiveCD to RAM (you need a lot)
+  serviceon= ........ to start service(s) (e.g. serviceon=isdn:lisa)
+  serviceoff= ....... to disable service(s)
+  ramsize=80% ....... set ramsize that will be used for LiveCD changes
+
+ More options: <F1> general  <F2> network  <F3> graphic/sound  <F4> disk
+

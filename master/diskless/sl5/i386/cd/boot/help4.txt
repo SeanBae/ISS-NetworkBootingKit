@@ -1,0 +1,20 @@
+
+boot/splash.lss
+0f 
+ You can affect the system by passing special parameters to the kernel.
+ Type "linux" followed by one or more parameters as shown below.
+
+  automount .......... to enable automounting of all found harddisks
+  noswap ............. do not search for SWAP partition
+  changes= ........... define a folder or partition to save changes
+  home= .............. define local /home (/dev/hda1, /dev/hda2:/folder)
+  nofstab ............ do not add local harddisk to /etc/fstab
+  nodma .............. disable DMA for cdrom and disk devices
+  noeject ............ do not eject LiveCD at the very end
+  usbdelay= .......... define timeout in sec. to wait for usb devices
+
+  for a complete list see  http://www.livecd.ethz.ch/parameter.html
+
+
+ More options: <F1> general  <F2> network  <F3> graphic/sound  <F4> disk
+

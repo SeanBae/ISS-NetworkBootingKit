@@ -1,0 +1,20 @@
+
+boot/splash.lss
+0f 
+ You can affect the system by passing special parameters to the kernel.
+ Type "linux" followed by one or more parameters as shown below.
+
+  kb=sg-latin1 ....... to set a keyboard layout (equal to keyboard=...)
+  nox ................ do not start the X server
+  simplex ............ simple X server configuration (failsafe)
+  screen=1024x768 .... specify the screen resolution
+  vsync=50-60 ........ specify the vertical monitor rates (in Hz)
+  hsync=50-60 ........ specify the horizontal monitor rates (in Hz)
+  vesa ............... to use VESA driver
+  nvidia ............. try to use NVIDIA driver (if available)
+  xdriver= ........... to use a specific driver for the X server
+
+  nosound ............ to turn of sound (volume=0)
+
+ More options: <F1> general  <F2> network  <F3> graphic/sound  <F4> disk
+
