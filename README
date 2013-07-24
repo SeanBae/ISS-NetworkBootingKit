@@ -1,5 +1,7 @@
 This document will serve as a concise tutorial in setting up a Scientific Linux network booting environment for the purpose of executing pxebooting on Scientific Flight computer for the ISS-CREAM (International Space Station - Cosmic Ray Energetics And Mass) Project
 
+By Sean Bae
+
 NOTE
 -We assume your host server uses Scientific Linux (or compatible subset of RedHat distribution)
 -We assume that your host server and your client computer are connected through host-only network or through Ethernet
