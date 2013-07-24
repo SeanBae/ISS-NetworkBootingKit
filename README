@@ -7,7 +7,7 @@ By Sean Bae
 
 NOTE
 -We assume your host server uses Scientific Linux (or compatible subset of RedHat distribution)
--We assume that your host server and your client computer are connected through host-only network or through Ethernet
+-We assume that your host server and your client computer are connected through host-only network or Ethernet
 
 
 STEPS
