@@ -1,4 +1,6 @@
-This document will serve as a concise tutorial in setting up a Scientific Linux network booting environment for the purpose of executing pxebooting on Scientific Flight computer for the ISS-CREAM (International Space Station - Cosmic Ray Energetics And Mass) Project
+This kit was created for the purpose of creating network booting environment on Scientific Flight computer for the ISS-CREAM (International Space Station - Cosmic Ray Energetics And Mass) Project
+
+This document will serve as a concise tutorial in setting up pxebooting environment using DHCP, TFTP and NFS
 
 By Sean Bae
 
