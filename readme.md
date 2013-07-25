@@ -14,6 +14,7 @@ NOTE
 ----
 
 STEPS:
+
 1. Install DHCP, TFTP, and NFS in your host server by entering a simple command on terminal 'yum install dhcp tftp nfs' on your host server
 
 2. Change your directory to '/etc' folder and replace your current dhcpd.conf file with the one inside this kit
