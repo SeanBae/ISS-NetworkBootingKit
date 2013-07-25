@@ -21,7 +21,7 @@ STEPS:
 
 2. Change your directory to `/etc` folder and replace your current dhcpd.conf file with the one inside this kit
 
-3. Open the new (one from this kit) `dhcpd.conf` file and follow the commented instruction (written in the configuration document) to configure your DHCP server settings with your correct server addresses so that it would point to your pxelinux.0 file (which we set up in step 5)
+3. Open the new (one from this kit) `dhcpd.conf` file and follow the commented instruction (written in the configuration document) to configure your DHCP server settings with your correct server addresses so that it would point to your `pxelinux.0` file (which we set up in step 5)
 
 4. Enable the TFTP server by modifying your `/etc/xinetd.d/tftp` file (set `disable=no` and `server_args=/tftpboot -s`)
 
