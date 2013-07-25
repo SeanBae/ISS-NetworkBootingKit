@@ -29,7 +29,7 @@ STEPS:
 
 6. Modify the `/tftpboot/pxelinux.cfg/default` file so that NFS can point to the correct server. To do this, set `nfsroot` parameter to your ip address followed by the `/master/diskless/sl5/i386/cd` (there is an example written on the `default` file)
 
-7. Finally start portmapper and NFS by running the `start` file in this package
+7. Finally start portmapper and NFS by running the `start` file in this package (You need to run this script every time you reboot your server)
 
 8. Start up your client machine (SFC) and when you reach a Scientific Linux boot screen, type `sl5diskless` and press enter to complete the network booting process
 
