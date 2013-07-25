@@ -15,12 +15,19 @@ NOTE
 
 STEPS:
 1. Install DHCP, TFTP, and NFS in your host server by entering a simple command on terminal 'yum install dhcp tftp nfs' on your host server
+
 2. Change your directory to '/etc' folder and replace your current dhcpd.conf file with the one inside this kit
+
 3. Open the new (one from this kit) 'dhcpd.conf' file and follow the commented instruction (written in the configuration document) to configure your DHCP server settings with your correct server addresses so that it would point to your pxelinux.0 file (which we set up in step 5)
+
 4. Enable the TFTP server by modifying your '/etc/xinetd.d/tftp' file (set 'disable=no' and 'server_args=/tftpboot -s')
+
 5. Copy the 'tftpboot' and 'master' folder in this kit to your root directory
+
 6. Modify the '/tftpboot/pxelinux.cfg/default' file so that NFS can point to the correct server. To do this, set 'nfsroot' parameter to your ip address followed by the '/master/diskless/sl5/i386/cd' (there is an example written on the 'default' file)
+
 7. Finally start portmapper and NFS by running the 'start' file in this package
+
 8. Start up your client machine (SFC) and when you reach a Scientific Linux boot screen, type 'sl5diskless' and press enter to complete the network booting process
 
 ----
