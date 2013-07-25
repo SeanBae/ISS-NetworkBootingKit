@@ -8,8 +8,10 @@ By Sean Bae
 ----
 
 NOTE
--We assume your host server uses Scientific Linux (or compatible subset of RedHat distribution).
--We assume that your host server and your client computer are connected through host-only network or Ethernet.
+
+- We assume your host server uses Scientific Linux (or compatible subset of RedHat distribution).
+
+- We assume that your host server and your client computer are connected through host-only network or Ethernet.
 
 ----
 
@@ -34,5 +36,6 @@ STEPS:
 ----
 
 TROUBLESHOOTING
+
 - If for some reason the SFC cannot connect to DHCP or TFTP server, it might be that your server's firewall is blocking external connection by default. To allow SFC to network boot, type the command 'iptables -F' (it will flush your firewall settings).
 
