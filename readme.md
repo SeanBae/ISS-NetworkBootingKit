@@ -37,5 +37,5 @@ STEPS:
 
 TROUBLESHOOTING
 
-- If for some reason the SFC cannot connect to DHCP or TFTP server, it might be that your server`s firewall is blocking external connection by default. To allow SFC to network boot, type the command `iptables -F` (it will flush your firewall settings).
+- If for some reason the SFC cannot connect to DHCP or TFTP server, it might be that your server's firewall is blocking external connection by default. To allow SFC to network boot, type the command `iptables -F` (it will flush your firewall settings).
 
